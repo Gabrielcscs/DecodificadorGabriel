@@ -8,34 +8,32 @@ body {
 }
 
 #cabecalho {
-    margin: 24px 0px 0px 24px;
-    padding-left: 200px;
+    margin: 15px 0px 0px 14px;
+    padding-left: 2rem;
     padding-top: 60px;
 }
 
 #conteudo{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    margin: 20px 40px 20px 350px;
+    gap: 30px;
+    margin: 20px 40px 20px 40px;
    
 }
 
 #conteudo__esquerda {
     display: grid;
     grid-column: auto;
-    gap: 400px;
+    gap: 10rem;
     padding: 40px;
     
 }
 
 #conteudo__direita {
     background-color: #f9fbfd;
-    border-radius: 26px;
-    padding: 40px;
-    margin-right: 100px;
-    height: 640px;
-    width: 400px;
+    border-radius: 1.56rem;
+    padding: 1rem;
+    height: 30rem;
 }
 
 #input__texto {
